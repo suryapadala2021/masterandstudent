@@ -9,6 +9,11 @@
 .master-heading {
   padding: 30px;
 }
+.master-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .questionList {
   list-style-type: none;
   padding-left: 0;

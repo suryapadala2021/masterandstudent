@@ -1,5 +1,6 @@
 import './index.css'
 import {Component} from 'react'
+import {Link} from 'react-router-dom'
 import StudentItem from '../studentItem'
 
 class Student extends Component {
@@ -44,6 +45,11 @@ class Student extends Component {
     return (
       <div className="student-container">
         <h1 className="student-heading">Student Portal</h1>
+        <Link to="/login">
+          <button type="button" className="logout-button">
+            Logout
+          </button>
+        </Link>
         <div className="student-content">
           {problemsList === null
             ? this.showEmptyView()

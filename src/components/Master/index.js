@@ -1,7 +1,7 @@
 import './index.css'
 import {Component} from 'react'
 import uuid from 'react-uuid'
-
+import {Link} from 'react-router-dom'
 import ProblemItem from '../ProblemItem'
 
 class Master extends Component {
@@ -123,6 +123,11 @@ class Master extends Component {
       <div className="master-container">
         <div className="master-header">
           <h1 className="master-heading">Master Portal</h1>
+          <Link to="/login">
+            <button type="button" className="logout-button">
+              Logout
+            </button>
+          </Link>
         </div>
         <div className="question-box">
           <label htmlFor="question">ENTER THE QUESTION</label>

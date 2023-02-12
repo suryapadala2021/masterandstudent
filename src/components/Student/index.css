@@ -24,3 +24,8 @@
   list-style-type: none;
   padding: 10px;
 }
+.logout-button {
+  background-color: white;
+  width: 300px;
+  height: 40px;
+}
