@@ -1,0 +1,26 @@
+.student-container {
+  background-color: #152850;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.student-heading {
+  text-align: center;
+  color: white;
+}
+.student-content {
+  flex-grow: 1;
+}
+.empty-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.student-question-list {
+  padding-left: 0;
+  list-style-type: none;
+  padding: 10px;
+}

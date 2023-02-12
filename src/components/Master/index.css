@@ -1,0 +1,25 @@
+.master-container {
+  background-color: #152850;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.master-heading {
+  padding: 30px;
+}
+.questionList {
+  list-style-type: none;
+  padding-left: 0;
+}
+.problems-list {
+  list-style-type: 'none';
+  padding-left: 0;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: flex-start;
+  overflow-y: auto;
+}
