@@ -1,0 +1,13 @@
+Routes used in this assignment:
+localhost:3000/login → To enter the login page
+localhost:3000/master → To route for the teacher / master portal
+localhost:3000/student → To route for the student portal
+
+Credentials Created for the assignment:
+
+Teacher / Master Portal :
+	Username : teja
+	Password : 12345
+Student Portal :
+	Username : suryareddy
+	Password : 123456
