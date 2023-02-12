@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 The goal of this coding exam is to quickly get you off the ground with **Authentication**.
 
 ### Refer to the image below:
@@ -173,3 +174,6 @@ Returns a response based on the credentials provided
 > ### _Things to Keep in Mind_
 >
 > - All components you implement should go in the `src/components` directory
+=======
+# masterandstudent
+>>>>>>> fca5bfc68559ff6814b5e524ad32bd2fb3a12c5f
